@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce-playwright-pom-framework-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "sanity": "playwright test --grep @sanity",
+    "regression": "playwright test --grep @regression",
+    "datadriven": "playwright test --grep @datadriven",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
